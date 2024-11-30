@@ -1,0 +1,70 @@
+@import url("./reset.css");
+@import url("./variables.css");
+
+
+.contact-details {
+    margin-top: 40px;
+}
+
+.container-1 {
+    border: 1px solid #4C768F;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 20px 50px 20px;
+    margin: 20px;
+}
+
+.container-1 div, .container-1 img {
+    flex: 1;
+}
+
+.container-1 img {
+    max-width: 100%;
+}
+
+.row-container {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+.container-2 {
+    flex: 1;
+    border: 1px solid #4C768F;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 20px 50px 20px;
+}
+
+.icon {
+    width: 80px;
+}
+
+hr.decorative-line {
+    border: 0;
+    height: 4px;
+    background: var(--accent);
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+iframe {
+    width: 80%;
+}
+
+@media (max-width:600px) {
+    .visit {
+        margin-top: 0px;
+    }
+    .visit-content {
+        margin: 0 20px 40px 20px
+    }
+
+    .row-container, .container-1 {
+        flex-direction: column;
+    }
+}

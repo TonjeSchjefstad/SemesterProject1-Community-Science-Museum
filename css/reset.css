@@ -1,0 +1,159 @@
+@import url("./variables.css");
+
+h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+}
+
+p, a, form {
+    font-family: var(--font-body);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+body {
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+}
+
+nav,
+#menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+} 
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    padding: 10px;
+    border-bottom: 1px solid var(--accent);
+    text-align: right;
+    z-index: 2;
+    margin-bottom: 0px;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+    margin-left: 10px;
+}
+
+nav {
+    position: absolute;
+    background-color: var( --primary-bg);
+    text-align: right;
+    right: 0;
+    top: 93px;
+    width: 100%;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-bottom: 1px solid var(--accent);
+    padding: 15px;
+}
+
+.heading {
+    background-color: var(--secondary-bg);
+    padding: 40px;
+    margin-top: 0px;
+}
+
+.heading h1  {
+    margin: 0px;
+}
+
+.button {
+    background-color: var(--accent);
+    border-radius: 22px;
+    border: 3px solid var(--accent-dark);
+    padding: 10px 50px 10px 50px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: var(--accent-hover);
+    border: 3px solid var(--accent-border-hover);
+}
+
+footer {
+    margin-top: 40px;
+    padding: 30px;
+    text-align: center;
+    border-top: 1px solid var(--accent);
+}
+
+footer a {
+    color: var(--accent);
+}
+
+footer p {
+    margin-top: 50px;
+}
+
+@media (min-width: 850px) {
+    nav {
+        display: block;
+        position: static;
+        padding-bottom: 0px;
+    }
+
+    .hamburger-icon {
+        display: none;
+    }
+
+    nav a {
+        display: inline-block;
+        border-right: white;
+        border-left: 2px solid white;
+        margin-left: -8px;
+        border-bottom: none;
+    }
+
+    nav a:hover {
+        background-color: var(--accent);
+        color: black;
+    }
+
+    nav a.active {
+        background-color: var(--accent);
+        color: black;
+    }
+
+    header {
+        margin-bottom: -10px;
+    }
+
+    .heading {
+        margin-top: 8px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+}
