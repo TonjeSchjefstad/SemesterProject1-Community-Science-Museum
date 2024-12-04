@@ -6,9 +6,9 @@
     display: flex;
     align-items: center;
     text-align: center;
-    gap: 20px;
+    gap: var(--space-medium);
     padding: 20px 20px 50px 20px;
-    margin: 20px;
+    margin: var(--space-medium);
 }
 
 .location-container article, .location-container img {
@@ -20,7 +20,7 @@
 }
 
 .contact-details {
-    margin-top: 40px;
+    margin-top: var(--space-large);
 }
 
 iframe {
@@ -29,8 +29,8 @@ iframe {
 
 .row-container {
     display: flex;
-    gap: 20px;
-    margin: 20px;
+    gap: var(--space-medium);
+    margin: var(--space-medium);
 }
 
 .info-card {
@@ -38,7 +38,7 @@ iframe {
     border: 1px solid #4C768F;
     align-items: center;
     text-align: center;
-    gap: 20px;
+    gap: var(--space-medium);
     padding: 20px 20px 50px 20px;
 }
 

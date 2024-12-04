@@ -9,11 +9,10 @@
     --accent-hover: #ffb52e;
     --accent-border-hover: #ce8601;
     --shadow: #313131;
-
     --font-heading: "poppins", arial, helvetica, sans-serif;
     --font-body: "inter", verdana, tahoma, sans-serif;
-
     --space-small: 10px;
     --space-medium: 20px;
     --space-large: 40px;
+    --space-xlarge: 60px;
 }

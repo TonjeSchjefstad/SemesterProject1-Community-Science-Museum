@@ -9,8 +9,8 @@
 .exhibition-item {
     background-color: var(--light-bg);
     flex: 1;
-    margin: 20px;
-    padding-bottom: 40px;
+    margin: var(--space-medium);
+    padding-bottom: var(--space-large);
     display: flex;
     flex-direction: column;
     box-shadow: 1px 1px 4px rgb(49, 49, 49);
@@ -34,7 +34,7 @@
     background-color: white;
     color: var(--secondary-text);
     display: flex;
-    padding: 20px;
+    padding: var(--space-medium);
 }
 
 .biology-exhibit img {

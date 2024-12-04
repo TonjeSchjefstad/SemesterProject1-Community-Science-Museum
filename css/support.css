@@ -2,11 +2,11 @@
 @import url("./variables.css");
 
 .support-container {
-    margin: 20px;
+    margin: var(--space-medium);
     border: 1px solid #4C768F;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: var(--space-medium);
     padding: 20px 20px 50px 20px;
 }
 
