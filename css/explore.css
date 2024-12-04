@@ -1,7 +1,16 @@
 @import url("./reset.css");
 @import url("./variables.css");
 
-.kids-explore-section, .teacher-explore-section, .researcher-explore-section {
+
+.explore-section {
+    background-color: #14273D;
+    color: white;
+    padding: 30px;
+    margin-left: 0px;
+    padding-bottom: 50px;
+}
+
+.explore-section, .teacher-explore-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -10,7 +19,7 @@
     margin-top: 40px;
 }
 
-.kids-explore-section img, .teacher-explore-section img, .researcher-explore-section img {
+.explore-section img, .teacher-explore-section img {
     max-width: 300px;
     margin-left: 30px;
 }
@@ -34,7 +43,7 @@
     font-weight: bold;
 }
 
-.researcher-explore-section {
+.explore-section {
     background-color: #14273D;
     color: white;
     padding: 30px;
@@ -42,11 +51,11 @@
     padding-bottom: 50px;
 }
 
-.researcher-explore-section p, .teacher-explore-section p {
+.explore-section p, .teacher-explore-section p {
     margin-bottom: 50px;
 }
 
-.researcher-explore-section h2, .researcher-explore-section p, .researcher-explore-section a {
+.explore-section h2, .explore-section p, .explore-section a {
     margin-left: 35px;
 }
 
@@ -55,21 +64,21 @@
         flex-direction: column;
     }
 
-    .kids-explore-section, .teacher-explore-section, .researcher-explore-section {
+    .teacher-explore-section, .explore-section {
         flex-direction: column;
         margin: 0 30px 0 30px;
     }
   
-    .kids-explore-section img, .teacher-explore-section img, .researcher-explore-section img {
+    .teacher-explore-section img, .explore-section img {
         align-items: center;
         margin: 30px 0 0 0;
     }
     
-    .researcher-explore-section {
+    .explore-section {
         margin: 0;
     }
 
-    .researcher-explore-section h2, .researcher-explore-section p, .researcher-explore-section a {
+    .explore-section h2, .explore-section p, .explore-section a {
         margin-left: 0px;
     }
 }
