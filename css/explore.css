@@ -68,7 +68,6 @@
 
     .teacher-explore-section, .explore-section {
         flex-direction: column;
-        margin: 0 30px 0 30px;
     }
   
     .teacher-explore-section img, .explore-section img {
