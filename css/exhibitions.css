@@ -10,6 +10,7 @@
     background-color: var(--light-bg);
     flex: 1;
     margin: 20px;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     box-shadow: 1px 1px 4px rgb(49, 49, 49);
@@ -27,10 +28,6 @@
 
 .exhibition-item h2, .exhibition-item p {
     padding: 0 20px 0 20px;
-}
-
-.exhibition-item p {
-    padding-bottom:40px;
 }
 
 .biology-exhibit {

@@ -13,6 +13,10 @@
     flex: 1;
 }
 
+.contact-form-wrapper, .general-inquiries-section {
+    max-width: 50%;
+}
+
 .contact-form-wrapper > * {
     flex: 1;
     display: flex;

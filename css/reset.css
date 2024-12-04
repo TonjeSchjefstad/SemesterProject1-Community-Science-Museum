@@ -48,9 +48,7 @@ header {
 }
 
 .logo {
-    max-width: 200px;
-    height: auto;
-    margin-left: 10px;
+    max-width: 150px;
 }
 
 nav {
@@ -117,6 +115,12 @@ footer p {
 }
 
 @media (min-width: 850px) {
+    .logo {
+        max-width: 200px;
+        height: auto;
+        margin-left: 10px;
+    }
+    
     nav {
         display: block;
         position: static;

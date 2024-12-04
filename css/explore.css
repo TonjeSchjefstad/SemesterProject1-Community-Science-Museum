@@ -29,6 +29,11 @@
     padding: 30px;
 }
 
+.program-card a {
+    color: var(--secondary-text);
+    font-weight: bold;
+}
+
 .researcher-explore-section {
     background-color: #14273D;
     color: white;
