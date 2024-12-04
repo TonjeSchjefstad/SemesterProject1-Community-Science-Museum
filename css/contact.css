@@ -47,4 +47,7 @@ textarea {
         border-left: none;
         padding-left: 0px;
     }
+    .contact-form-wrapper, .general-inquiries-section {
+        max-width: 100%;
+    }
 }
