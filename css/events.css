@@ -1,7 +1,7 @@
 @import url("./reset.css");
 @import url("./variables.css");
 
-.wrapper, .wrapper-1 {
+.event-wrapper, .event-wrapper-reverse {
     background-color: var(--light-bg);
     display: flex;
     align-items: center;
@@ -9,9 +9,13 @@
     padding: 20px 20px 50px 20px;
 }
 
-.wrapper img, .wrapper-1 img {
+.event-wrapper img, .event-wrapper-reverse img {
     max-width: 400px;
     box-shadow: 1px 1px 4px black;
+}
+
+.event-text-dark {
+    color: var(--secondary-text);
 }
 
 .event-details {
@@ -19,15 +23,11 @@
     margin: 0 0 0 0;
 }
 
-.event-black {
-    color: black;
-}
-
-.last-p {
+.event-outro {
     margin-bottom: 40px;
 }
 
-.wrapper-1 {
+.event-wrapper-reverse {
     background-color:  var(--primary-bg); 
 }
 
@@ -48,18 +48,18 @@ textarea {
 }
 
 @media (max-width:600px) {
-    .wrapper {
+    .event-wrapper {
         flex-direction: column;
         margin: 20px;
     }
-    .wrapper-1 {
+    .event-wrapper-reverse {
         flex-direction: column;
     }
-    .wrapper img, .wrapper-1 img {
+    .event-wrapper img, .event-wrapper-reverse img {
         max-width: 300px;
     }
 
-    .wrapper img {
+    .event-wrapper img {
         order: -1;
     }
     .newsletter {

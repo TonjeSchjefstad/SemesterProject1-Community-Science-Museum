@@ -72,13 +72,13 @@ nav a {
     padding: 15px;
 }
 
-.heading {
+.intro-section {
     background-color: var(--secondary-bg);
     padding: 40px;
     margin-top: 0px;
 }
 
-.heading h1  {
+.intro-section h1  {
     margin: 0px;
 }
 
@@ -87,7 +87,7 @@ nav a {
     border-radius: 22px;
     border: 3px solid var(--accent-dark);
     padding: 10px 50px 10px 50px;
-    color: black;
+    color: var(--secondary-text);
     text-decoration: none;
     font-weight: bold;
 }
@@ -106,6 +106,10 @@ footer {
 
 footer a {
     color: var(--accent);
+}
+
+footer a:hover {
+    color: var(--accent-hover);
 }
 
 footer p {
@@ -133,19 +137,19 @@ footer p {
 
     nav a:hover {
         background-color: var(--accent);
-        color: black;
+        color: var(--secondary-text);
     }
 
     nav a.active {
         background-color: var(--accent);
-        color: black;
+        color: var(--secondary-text);
     }
 
     header {
         margin-bottom: -10px;
     }
 
-    .heading {
+    .intro-section {
         margin-top: 8px;
     }
 

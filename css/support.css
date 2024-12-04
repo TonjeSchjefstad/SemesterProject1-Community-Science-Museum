@@ -1,7 +1,7 @@
 @import url("./reset.css");
 @import url("./variables.css");
 
-.wrapper {
+.support-container {
     margin: 20px;
     border: 1px solid #4C768F;
     display: flex;
@@ -10,29 +10,25 @@
     padding: 20px 20px 50px 20px;
 }
 
-.support-content {
+.support-card {
     flex: 1;
     text-align: left;
 }
 
-.support-content p {
+.support-card p {
     margin-bottom: 50px;
 }
 
-.wrapper img {
+.support-container img {
     max-width: 300px;
     box-shadow: 1px 1px 4px var(--shadow);
 }
 
 @media (max-width:600px) {
-    .heading {
-        margin-top: 0px;
-    }
-
-    .wrapper {
+    .support-container {
         flex-direction: column;
     }
-    .wrapper img {
+    .support-container img {
         margin-top: 30px;
     }
 }

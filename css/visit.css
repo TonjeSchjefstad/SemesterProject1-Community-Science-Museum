@@ -1,12 +1,7 @@
 @import url("./reset.css");
 @import url("./variables.css");
 
-
-.contact-details {
-    margin-top: 40px;
-}
-
-.container-1 {
+.location-container {
     border: 1px solid #4C768F;
     display: flex;
     align-items: center;
@@ -16,12 +11,16 @@
     margin: 20px;
 }
 
-.container-1 div, .container-1 img {
+.location-container article, .location-container img {
     flex: 1;
 }
 
-.container-1 img {
+.location-container img {
     max-width: 100%;
+}
+
+.contact-details {
+    margin-top: 40px;
 }
 
 .row-container {
@@ -30,7 +29,7 @@
     margin: 20px;
 }
 
-.container-2 {
+.info-card {
     flex: 1;
     border: 1px solid #4C768F;
     align-items: center;
@@ -57,14 +56,7 @@ iframe {
 }
 
 @media (max-width:600px) {
-    .visit {
-        margin-top: 0px;
-    }
-    .visit-content {
-        margin: 0 20px 40px 20px
-    }
-
-    .row-container, .container-1 {
+    .row-container, .location-container {
         flex-direction: column;
     }
 }
