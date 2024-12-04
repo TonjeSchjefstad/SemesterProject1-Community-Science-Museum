@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 20px 20px 50px 20px;
+    padding: 20px 20px 50px 40px;
 }
 
 .event-wrapper img, .event-wrapper-reverse img {

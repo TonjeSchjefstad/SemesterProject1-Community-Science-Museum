@@ -6,7 +6,7 @@
     background-color: #14273D;
     color: white;
     padding: 30px;
-    margin-left: 0px;
+    
     padding-bottom: 50px;
 }
 
@@ -15,13 +15,19 @@
     align-items: center;
     justify-content: space-between;
     gap: 40px;
-    margin-left: 60px;
-    margin-top: 40px;
 }
 
 .explore-section img, .teacher-explore-section img {
     max-width: 300px;
     margin-left: 30px;
+}
+
+.explore-section p, .teacher-explore-section p {
+    margin-bottom: 50px;
+}
+
+.explore-section h2, .explore-section p, .explore-section a {
+    margin-left: 35px;
 }
 
 .programs-section {
@@ -43,23 +49,19 @@
     font-weight: bold;
 }
 
-.explore-section {
-    background-color: #14273D;
-    color: white;
-    padding: 30px;
-    margin-left: 0px;
-    padding-bottom: 50px;
-}
-
-.explore-section p, .teacher-explore-section p {
-    margin-bottom: 50px;
-}
-
-.explore-section h2, .explore-section p, .explore-section a {
-    margin-left: 35px;
+.teacher-explore-section {
+    margin: 40px 0 60px 60px;
 }
 
 @media (max-width:700px) {
+    .explore-section {
+        margin: 0;
+    }
+
+    .explore-section h2, .explore-section p, .explore-section a {
+        margin-left: 0px;
+    }
+    
     .programs-section {
         flex-direction: column;
     }
@@ -72,13 +74,5 @@
     .teacher-explore-section img, .explore-section img {
         align-items: center;
         margin: 30px 0 0 0;
-    }
-    
-    .explore-section {
-        margin: 0;
-    }
-
-    .explore-section h2, .explore-section p, .explore-section a {
-        margin-left: 0px;
     }
 }

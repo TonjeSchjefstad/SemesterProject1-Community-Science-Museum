@@ -15,12 +15,16 @@
     flex: 1;
 }
 
-.location-container img {
-    max-width: 100%;
+.location-container div {
+    flex: 1;
 }
 
 .contact-details {
     margin-top: 40px;
+}
+
+iframe {
+    width: 80%;
 }
 
 .row-container {
@@ -49,10 +53,6 @@ hr.decorative-line {
     width: 80%;
     margin: 20px auto;
     border-radius: 5px;
-}
-
-iframe {
-    width: 80%;
 }
 
 @media (max-width:600px) {
