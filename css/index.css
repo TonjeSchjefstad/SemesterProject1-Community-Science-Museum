@@ -121,11 +121,13 @@ hr.decorative-line {
     }
 }
 
-@media (max-width:700px) {
+@media (max-width:850px) {
     .main-header {
         margin-top: 0px;
     }
+}
 
+@media (max-width:700px) {
     .main-content {
         left: 30px;
         top: 30px;
