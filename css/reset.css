@@ -89,7 +89,7 @@ nav a {
     background-color: var(--accent);
     border-radius: 22px;
     border: 3px solid var(--accent-dark);
-    padding: 10px 50px 10px 50px;
+    padding: 10px 50px;
     color: var(--secondary-text);
     text-decoration: none;
     font-weight: bold;
@@ -101,7 +101,7 @@ nav a {
 }
 
 footer {
-    margin-top: 40px;
+    margin-top: var(--space-large);
     padding: 30px;
     text-align: center;
     border-top: 1px solid var(--accent);
@@ -109,6 +109,7 @@ footer {
 
 footer a {
     color: var(--accent);
+    margin-right: 10px;
 }
 
 footer a:hover {
@@ -123,14 +124,14 @@ footer p {
     .logo {
         max-width: 200px;
         height: auto;
-        margin-left: 10px;
+        margin-left: var(--space-small);
     }
     
     nav {
         display: block;
         position: static;
         padding-bottom: 0px;
-        padding-right: 30px;
+        padding-right: var(--space-small);
     }
 
     .hamburger-icon {

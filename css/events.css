@@ -20,7 +20,7 @@
 
 .event-details {
     font-weight: bold;
-    margin: 0 0 0 0;
+    margin: 0;
 }
 
 .event-outro {
@@ -55,12 +55,14 @@ textarea {
 
 @media (max-width:700px) {
     .event-wrapper {
-        flex-direction: column;
         margin: var(--space-medium);
     }
-    .event-wrapper-reverse {
+
+    .event-wrapper, .event-wrapper-reverse {
         flex-direction: column;
+        padding: 20px 20px 50px 20px;
     }
+
     .event-wrapper img, .event-wrapper-reverse img {
         width: unset;
         max-width: 100%;
@@ -69,6 +71,7 @@ textarea {
     .event-wrapper img {
         order: -1;
     }
+
     .newsletter {
         margin: var(--space-small); 
     }

@@ -41,9 +41,14 @@ textarea {
     margin-top: var(--space-large);
 }
 
-
 @media (max-width:600px) {
     .contact-form-wrapper, .general-inquiries-section {
         max-width: 100%;
+    }
+
+    .general-inquiries-section {
+        border-left: none;
+        border-top: 1px solid #DAE5F5;;
+        padding-left: var(--space-small);
     }
 }

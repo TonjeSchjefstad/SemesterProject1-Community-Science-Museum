@@ -37,14 +37,14 @@
 
 .main-content p {
     max-width: 650px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .highlights-container  {
     display: flex;
     justify-content:center;
     gap: var(--space-large);
-    margin: 30px 0px 30px 0px;
+    margin: 30px 0px;
 }
 
 .highlight-item  {
@@ -132,7 +132,7 @@ hr.decorative-line {
 @media (max-width:850px) {
     .main-header {
         margin-top: var(--space-medium);
-        padding-top: 60px;
+        padding-top: var(--space-xlarge);
         
     }
 }
