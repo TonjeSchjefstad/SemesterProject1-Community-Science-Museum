@@ -39,6 +39,7 @@ textarea {
 
 .contact-info {
     margin-top: var(--space-large);
+    font-weight: bold;
 }
 
 @media (max-width:600px) {

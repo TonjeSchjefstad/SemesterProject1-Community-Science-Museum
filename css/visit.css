@@ -26,6 +26,7 @@ hr.decorative-line {
 
 .contact-details {
     margin-top: var(--space-large);
+    font-weight: bold;
 }
 
 iframe {
