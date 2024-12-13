@@ -11,12 +11,17 @@
     margin: var(--space-medium);
 }
 
-.location-container article, .location-container img {
+.location-container div, .location-container img {
     flex: 1;
 }
 
-.location-container div {
-    flex: 1;
+hr.decorative-line {
+    border: 0;
+    height: 4px;
+    background: var(--accent);
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
 }
 
 .contact-details {
@@ -44,15 +49,6 @@ iframe {
 
 .icon {
     width: 80px;
-}
-
-hr.decorative-line {
-    border: 0;
-    height: 4px;
-    background: var(--accent);
-    width: 80%;
-    margin: 20px auto;
-    border-radius: 5px;
 }
 
 @media (max-width:600px) {
