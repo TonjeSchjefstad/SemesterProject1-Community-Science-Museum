@@ -67,6 +67,10 @@
     .programs-section {
         flex-direction: column;
     }
+    
+    .teacher-explore-section {
+        margin: 40px 0 60px 20px;
+    }
 
     .teacher-explore-section, .explore-section {
         flex-direction: column;

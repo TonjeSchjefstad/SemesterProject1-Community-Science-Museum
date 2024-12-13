@@ -75,4 +75,10 @@ textarea {
     .newsletter {
         margin: var(--space-small); 
     }
+
+    input,
+    select,
+    textarea {
+        width: 250px;
+    }
 }
