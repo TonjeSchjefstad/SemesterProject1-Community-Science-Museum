@@ -1,57 +1,54 @@
-# SemesterProject1
+# Community Science Museum
 
-## Checklist
--  High-definition prototype for mobile and desktop (2 points)
--  UX/UI: Responsiveness and accessibility (2 point)
--  HTML is bug-free and semantic (2 points)
--  CSS follows DRY principles (2 points)
--  Website is responsive (4 points)
--  Each page has unique titles and descriptions (1 point)
--  Each page has a unique H1 (1 point)
--  Images are below 200kb (1 point)
--  Colors are WCAG compliant (1 point)
--  Images have alt text (1 point)
--  Project is well-organized and files are formatted (1 point)
--  Report includes lessons learned and challenges (1 point)
--  Project successfully planned and completed (1 point)
+![image](https://i.imghippo.com/files/OwF9880CLY.png)
 
-## The Brief
+## Description
+An interactive and educational website designed to spark curiosity and wonder in young minds. Build specificallt for primary and middle school children and families, this platform encourages museum visits through captivationg design and accessible content.
+The Community Science Museum website serves as a digital gateway to scientific discovery. Through vibrant visuals, intuitive navigation and engaging content, the site makes science accessible and exciting for young learners while providing practical information.
 
-An interactive science museum called the Community Science Museum is opening in your town/city. Its core target audience is primary and middle school children (ages 7-15) and families with young children.
+### Features
+- Kid friendly Design - Vibrant colors and engaging visuals
+- Interactive Navigation - Intuitive menu structure designed for easy access.
+- Fast loading - Optimized images and performance for quick access across all devices.
+- Accessibility - WCAG-compliant design
+- Responsiveness - Seamless experience across devices.
 
-The website should be informative and engaging, encouraging viewers to visit the museum. It should also be responsive and easy to use on various devices. Peer/Teacher review is recommended.
+## Built With
+- Figma - For design layout, style guide, UX/UI, wireframes and prototypes.
+- HTML5 - Semantic and neat code for accessibility and SEO
+- CSS3 - Styling and responsive layout using Flexbox and Grid for optimal use across devices.
 
-You have been provided with media assets such as text and images (see link under Resources). You must decide how these will be used in terms of presentation, hierarchy, and design. If any assets are too large, remember to optimize file sizes to ensure smooth loading and a polished user experience.
+## Site architecture
+- Home
+- Explore
+- Exhibitions
+- Events
+- Visit Us
+- Get Involved
 
-You have the choice to work on this individually or as part of a team of two.
+## Getting Started
 
-## Requirements
+### Installing
+1. Clone the repo:
 
-- The site must have a design that appeals to the target audience.
-- The site must have at least 4-6 pages.
-- Compositional principles, typography, and colour schemes must be considered.
-- HTML should be semantic and neatly indented.
-- External CSS stylesheets should follow the DRY principle.
-- The site should load quickly, with image sizes capped at 200kb.
-- WCAG principles must be applied to hierarchy, navigation, and colour usage.
-- The site must be responsive, attractive, and user-friendly across devices.
-- SEO practices such as meta tags and alt text must be implemented.
+```bash
+https://github.com/TonjeSchjefstad/SemesterProject1-Community-Science-Museum.git
+```
 
-## User Stories
+2. Install the dependencies:
 
-- As a visitor, I want the website to appeal to children so they feel encouraged to visit the museum with their families.
-- As a user, I want to browse through the deployed site without any issues.
-- As a visitor, I want the website to adapt seamlessly to any device, so it is easy to interact with on mobile, tablet, or desktop.
-- As a visitor, I want at least 4-6 pages with clear navigation.
-- As a visitor, I want the site to load quickly, even on slow connections, so I can easily access it.
-- As a user with disabilities, I want the website to follow accessibility guidelines so I can navigate independently.
-- As the site owner, I want good SEO to rank higher in search engines and attract more visitors.
-- As a developer, I want the GitHub repository public to allow for collaboration and code review.
+```
+npm install
+```
 
-## Submission Guidelines
+### Running
 
-The following must be added in your PDF report (use the template provided) and submit on moodle
+To run the app, run the following commands:
 
-- A live version link of the site
-- A link to the site’s prototype
-- A link to the project planning board and GitHub repository.
+```bash
+npm run start
+```
+
+## Contact
+My LinkedIn page: https://www.linkedin.com/in/tonjeschjefstad/
+
